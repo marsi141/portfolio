@@ -13,19 +13,24 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-   
+    
 }
 .left{
+    
     height: 20px;
     color: white;
 }
 
 .right{
+    color: white;
     display: flex;
     gap: 10px;
     list-style: none;
-    color: white;
     
+    
+}
+.intro{
+    margin-top: 150px;
 }
 h1{
     color: white;
@@ -33,6 +38,7 @@ h1{
     margin-left: 20px;
     font-style: italic;
     height: 15px;
+   
 }
     
 
@@ -67,7 +73,40 @@ h6{
 }
 .parent{
     display: flex;
-  
+}
 .about,.skills{
     width: 10%;
+}
+.projects{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+   flex: 5;
+}
+.pp{
+    flex: stretch;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+    
+}
+.pp-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
+.par{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+htnml{
+    scroll-behavior: smooth;
 }
