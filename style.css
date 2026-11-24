@@ -3,21 +3,28 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: #c242f5;
+    background-image: url('https://img.magnific.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+
+
+
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+   
 }
 .left{
     height: 20px;
+    color: white;
 }
 
 .right{
     display: flex;
     gap: 10px;
     list-style: none;
+    color: white;
     
 }
 h1{
@@ -35,4 +42,32 @@ h6{
     margin-left: 20px;
     margin-top: 20px;
     
+}
+.button{
+    color: white;
+   
+    padding: 10px 20px;
+  
+    
+    transition: all 0.3s ease-in-out;
+}
+.about{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+   flex: 5;
+}
+.skills{
+    color: white;
+    font-size: 18px;
+    margin-left: 550px;
+    margin-bottom: 500px;
+   flex: 5;
+}
+.parent{
+    display: flex;
+  
+.about,.skills{
+    width: 10%;
 }
