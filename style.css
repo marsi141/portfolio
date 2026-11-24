@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #c242f5;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    height: 20px;
+}
+
+.right{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+}
+h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    font-style: italic;
+    height: 15px;
+}
+    
+
+h6{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
