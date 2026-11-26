@@ -11,6 +11,9 @@ body{
 
 
 }
+.navbar{
+    background-color: tan;
+}
 
 nav{
     display: flex;
@@ -20,7 +23,7 @@ nav{
 .left{
     
     height: 20px;
-    color: white;
+    color: black;
 }
 
 .right{
